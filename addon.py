@@ -3,6 +3,9 @@ import xbmcgui
  
 addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
+
+from subprocess import call
+call(["ls", "-l"])
  
 line1 = "Hello World!"
 line2 = "We can write anything we want here"
