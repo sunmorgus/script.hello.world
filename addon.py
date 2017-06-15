@@ -15,6 +15,7 @@ class BlahMainWindow(xbmcgui.Window):
     # and define it as self
     def __init__(self):
     # add picture control to our window (self) with a hardcoded path name to picture
+# you can use a url in control image
     self.addControl(xbmcgui.ControlImage(0,0,720,480, 'Q:\\scripts\\background.jpg'))
  
 # store our window as a short variable for easy of use
